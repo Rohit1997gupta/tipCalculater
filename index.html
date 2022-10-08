@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="tipCalculater.css">
+<script src ="tipCalculater.js"></script>
+</head>
+<body>
+    <main>
+            <h1>Tip Calculator</h1>
+            <br/>
+            <div>
+       <label>Bill Amount</label>
+        <br/>
+       <input type="text" name="" id="bill_amount" placeholder="amount">
+        <br/>
+        <label>Tip perc</label>
+        <br/>
+        <input type="text" name="" id="tip_per" placeholder="%">
+        <br/>
+        <!-- 11111 -->
+        <label>Distribut b/w People</label></br>
+        <input type="number" name="" id="b/w" placeholder="Number of people"/></br>
+        <!-- 111111 -->
+        <label>Tip Amount</label>
+        <br/>
+        <input type="text" name="" id="tip_amount" disabled placeholder="% amount">
+        <br/>
+        <label>Total Amount</label>
+        <br/>
+        <input type="text" name="" id="total_amount" disabled placeholder="total amount">
+        <br/>
+        
+        <label>Amount for each People</label></br>
+        <input type="text" name="" id="Amount_each" disabled placeholder="Amout for each people"/></br></br>
+        <button onclick="Pay()">Find Amount</button>
+        </div>
+    </main>
+    
+</body>
+
+</html>
